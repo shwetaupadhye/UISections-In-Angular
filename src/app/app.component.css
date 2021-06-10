@@ -1,0 +1,37 @@
+body,*
+ { 
+    box-sizing: border-box; 
+    margin: 0px; 
+    padding: 0px; 
+}
+#header {
+     width: 100%;
+      height: 90px;
+       background-color: rgb(15, 15, 14); 
+       color: aliceblue;
+    }
+#aside {
+     width: 15%; 
+     height: 500px;
+      background-color:rgb(218, 204, 204); 
+      float: left;
+    }
+#section { 
+    width: 70%; 
+    height: 500px; 
+    background-color: rgb(233, 181, 233);
+     float: left;
+    }
+#artical { 
+    width: 15%; 
+    height: 500px; 
+    background-color: rgb(222, 236, 172); 
+    float: left;
+}
+#footer { 
+    width: 100%; 
+    height: 80px;
+   background-color: rgb(250, 241, 241); 
+clear: both; 
+color: rgb(17, 17, 17);
+}
